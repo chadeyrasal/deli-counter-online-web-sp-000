@@ -22,7 +22,7 @@ def take_a_number(katz_deli)
 end
 
 def now_serving(katz_deli)
-  katz_deli = take_a_number(katz_deli, name)
+  katz_deli = take_a_number(katz_deli)
   if katz_deli = []
     puts "There is nobody waiting to be served!"
   else
